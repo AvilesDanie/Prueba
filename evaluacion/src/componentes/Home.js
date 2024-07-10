@@ -1,10 +1,12 @@
 import React from 'react';
+import Main from './Main';
+import Galeria from './Galeria';
 
 const Home = () => {
   return (
     <div>
-      <h1>Inicio</h1>
-      <p>Bienvenido a la página de inicio.</p>
+      <Main/>
+      <Galeria/>
     </div>
   );
 }
